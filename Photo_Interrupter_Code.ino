@@ -9,9 +9,9 @@ void loop() {
   sensorRead = digitalRead(2);
 
   if (sensorRead > 0) {
-    digitalWrite(9, HIGH);
+    digitalWrite(9, LOW);
   }
   else {
-    digitalWrite(9, LOW);
+    digitalWrite(9, HIGH);
   }
 }
